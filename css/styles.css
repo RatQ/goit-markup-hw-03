@@ -23,6 +23,10 @@ button {
     font-family: "Roboto", sans-serif;
 }
 
+img {
+    display: block;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -233,11 +237,11 @@ button {
     color: #2e2f42;
     padding-top: 120px;
     margin-bottom: 72px;
-    border-radius: 0 0 4px 4px;
 }
 
 .our-team-list {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
 }
 
 .worker {
