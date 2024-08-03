@@ -145,7 +145,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding-top: 188px;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
@@ -193,7 +192,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 96px;
     margin-bottom: 8px;
 }
 
@@ -235,7 +233,6 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -255,7 +252,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -265,7 +261,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 32px;
 }
 /* #endregion our team */
 
@@ -283,7 +278,6 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-top: 96px;
     margin-bottom: 72px;
 }
 
@@ -300,8 +294,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
-    margin-bottom: 8px;
 }
 
 .service-type {
@@ -334,7 +326,6 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    padding-top: 100px;
     margin-bottom: 16px;
 }
 
@@ -355,7 +346,5 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-top: 16px;
-    padding-bottom: 100px;
 }
 /* #endregion footer */
