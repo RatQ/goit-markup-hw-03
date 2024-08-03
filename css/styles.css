@@ -130,6 +130,8 @@ button {
 /* #region hero */
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -153,9 +155,13 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     border-radius: 4px;
     padding: 16px 32px;
     display: flex;
+    display: block;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -168,6 +174,11 @@ button {
 /* #endregion hero */
 
 /* #region Our work */
+.our-work {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .our-work-title {
     color: #2e2f42;
 }
@@ -203,6 +214,8 @@ button {
 /* #region our team */
 .our-team {
     background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-list {
@@ -220,10 +233,15 @@ button {
     color: #2e2f42;
     padding-top: 120px;
     margin-bottom: 72px;
+    border-radius: 0 0 4px 4px;
 }
 
 .our-team-list {
     background-color: #FFFFFF;
+}
+
+.worker {
+    padding: 32px 0;
 }
 
 .our-team-employee {
@@ -248,6 +266,11 @@ button {
 /* #endregion our team */
 
 /* #region our portfolio */
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .our-portfolio {
     font-weight: 700;
     font-size: 36px;
@@ -264,6 +287,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .service {
@@ -283,11 +307,18 @@ button {
     color: #434455;
     margin-bottom: 80px;
 }
+
+.app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 /* #endregion our portfolio */
 
 /* #region footer */
 .footer-page {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .logo-footer {
@@ -298,8 +329,9 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: block;
+    display: inline-block;
     padding-top: 100px;
+    margin-bottom: 16px;
 }
 
 .logo-footer-item {
